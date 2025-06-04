@@ -25,3 +25,13 @@ python3 -m http.server
 ```
 
 Then visit [http://localhost:8000](http://localhost:8000) in your browser and the timer will work correctly.
+
+## Running tests
+
+To verify that the timer module loads correctly in Node, run:
+
+```bash
+npm test
+```
+
+This simple test checks the `Timer` class initialization.
