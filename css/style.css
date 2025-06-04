@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#clock-container {
+    margin: 40px auto;
+}
+
+#clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 8px solid #333;
+    border-radius: 50%;
+    background: white;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transform: rotate(0deg);
+    background: #333;
+}
+
+.minute {
+    width: 6px;
+    height: 130px;
+}
+
+.second {
+    width: 3px;
+    height: 140px;
+    background: red;
+}
+
+#start-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#log-container {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+#log li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #333;
+    list-style: none;
+}
