@@ -14,3 +14,24 @@ git push -u origin work
 ```
 
 Replace `<your-username>` and `<repo>` with your actual GitHub username and repository name.
+
+## Running the timer locally
+
+Because the scripts in `index.html` use ES modules, most browsers block them when opened directly from the filesystem. Use a simple HTTP server instead:
+
+```bash
+# From the project directory
+python3 -m http.server
+```
+
+Then visit [http://localhost:8000](http://localhost:8000) in your browser and the timer will work correctly.
+
+## Running tests
+
+To verify that the timer module loads correctly in Node, run:
+
+```bash
+npm test
+```
+
+This simple test checks the `Timer` class initialization.
