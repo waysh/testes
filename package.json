@@ -1,0 +1,9 @@
+{
+  "name": "timer-app",
+  "version": "1.0.0",
+  "description": "Simple modular timer web app",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "type": "module"
+}
